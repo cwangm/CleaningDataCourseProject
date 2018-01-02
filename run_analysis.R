@@ -39,4 +39,4 @@ data_extract[, activity_name := activity_vector[activity]] #add new column named
 tidy_average <- data_extract[, lapply(.SD, mean), by = .(subject, activity_name)]
 tidy_average <- tidy_average[order(subject, activity_name)] #sort by subject index and activity name
 setwd(directory_path)
-write.csv(tidy_average, "tidy_data.csv", row.names = FALSE)
+write.table(tidy_average, "tidy_data.txt", row.names = FALSE)

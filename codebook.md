@@ -58,7 +58,7 @@ type, and the value for each feature represent the mean over all rows
 matching the subject index and activity type in the original data. The
 resulting summary data.table was sorted in ascending order by subject
 index and activity name and presented as the final tidy data, and saved
-as "tidy\_data.csv".
+as "tidy\_data.txt".
 
 Table of all features in the output tidy data.
 ----------------------------------------------

@@ -20,7 +20,7 @@ to input a desired directory path to which the data will be downloaded
 to on line 1, and subsequently serve as the work directory to which the
 final output tidy data will be saved to as a .csv file. After the
 directory path is specified, the user can run the entire script to
-completion to obtain the final today data saved as a .csv file.
+completion to obtain the final today data saved as a .txt file.
 
 Data download and read
 ----------------------
@@ -68,4 +68,4 @@ type, and the value for each feature represent the mean over all rows
 matching the subject index and activity type in the original data. The
 resulting summary data.table was sorted in ascending order by subject
 index and activity name and presented as the final tidy data, and saved
-as "tidy\_data.csv".
+as "tidy\_data.txt".
